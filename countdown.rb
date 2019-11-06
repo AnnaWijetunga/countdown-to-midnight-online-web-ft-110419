@@ -7,8 +7,7 @@ def countdown(count)
     end
     "HAPPY NEW YEAR!"
   end
-  
-countdown(10)
+
 
 # write method that takes in an integer argument
 # and uses a while loop to countdown from that integer to 0 

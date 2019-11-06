@@ -10,10 +10,10 @@ def countdown(count)
 
 def countdown_with_sleep(count)
     while count > 0
-      count-=1
-      sleep(1)
+      count -= 1
+      sleep(5)
     end
-      puts "0 left. HAPPY NEW YEAR!"
+      "HAPPY NEW YEAR!"
   end
 # write method that takes in an integer argument
 # and uses a while loop to countdown from that integer to 0 

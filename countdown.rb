@@ -1,14 +1,13 @@
 #write your code here
 
-def countdown(number)
-  counter = 10
-  while number < 10 
-    puts "#{number} SECOND(S)!"
-    counter -= 1 
+def countdown(count)
+    while count > 0
+      puts "#{count} seconds!"
+      count -= 1
+    end
+    "HAPPY NEW YEAR!"
   end
-    return "HAPPY NEW YEAR"
-end
-
+  
 countdown(10)
 
 # write method that takes in an integer argument

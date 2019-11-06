@@ -8,7 +8,13 @@ def countdown(count)
     "HAPPY NEW YEAR!"
   end
 
-
+def countdown_with_sleep(count)
+    while count > 0
+      count-=1
+      sleep(1)
+    end
+      puts "0 left. HAPPY NEW YEAR!"
+  end
 # write method that takes in an integer argument
 # and uses a while loop to countdown from that integer to 0 
 # outputting "#{number} SECOND(S)!" in each iteration of the loop
